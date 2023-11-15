@@ -40,6 +40,8 @@ public class Reader {
 				}
 			} catch (Exception e) {
 				System.out.println("Error: " + e.getMessage());
+			}finally {
+				in.close();
 			}
 			
 			FileWriter myWriter = null;

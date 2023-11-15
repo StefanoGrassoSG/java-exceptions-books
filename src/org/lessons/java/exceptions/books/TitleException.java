@@ -11,5 +11,4 @@ public class TitleException extends Exception {
 		
 		super(message);
 	}
-
 }
